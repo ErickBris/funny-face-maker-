@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/appicon"
+     android:layout_width="fill_parent" 
+     android:layout_height="fill_parent" >
+     
+    <HorizontalScrollView android:id="@id/horizontalScrollView1" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+        <LinearLayout android:id="@id/LinearLayout1" android:layout_width="830.0dip" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/Glips" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/lips" android:background="@drawable/rouned_button" android:layout_gravity="center" android:layout_marginLeft="5dp" />
+            <ImageButton android:id="@id/geye" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/eye" android:background="@drawable/rouned_button" android:layout_gravity="center" android:layout_marginLeft="5dp"/>
+            <ImageButton android:id="@id/Ghead" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/topi" android:background="@drawable/rouned_button" android:layout_gravity="center" android:layout_marginLeft="5dp"/>
+            <ImageButton android:id="@id/Gdadhi" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/dadhi" android:background="@drawable/rouned_button" android:layout_gravity="center" android:layout_marginLeft="5dp"/>
+            <ImageButton android:id="@id/Ggoggles" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/goggle0" android:background="@drawable/rouned_button" android:layout_gravity="center" android:layout_marginLeft="5dp"/>
+            <ImageButton android:id="@id/Gnose" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/nose" android:background="@drawable/rouned_button" android:layout_gravity="center" android:layout_marginLeft="5dp"/>
+            <ImageButton android:id="@id/Gtie" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/tie" android:background="@drawable/rouned_button" android:layout_gravity="center" android:layout_marginLeft="5dp"/>
+            <ImageButton android:id="@id/Gear" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ear" android:background="@drawable/rouned_button" android:layout_gravity="center" android:layout_marginLeft="5dp"/>
+            <ImageButton android:id="@id/Gcigar" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/cigar" android:background="@drawable/rouned_button" android:layout_gravity="center" android:layout_marginLeft="5dp"/>
+            <ImageButton android:id="@id/Ghair" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/hair" android:background="@drawable/rouned_button" android:layout_gravity="center" android:layout_marginLeft="5dp"/>
+            <ImageButton android:id="@id/Gmask" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/masks" android:background="@drawable/rouned_button" android:layout_gravity="center" android:layout_marginLeft="5dp"/>
+            <ImageButton android:id="@id/Ghorror" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/horror" android:background="@drawable/rouned_button" android:layout_gravity="center" android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <GridView android:id="@id/gridgudgets" android:scrollbars="none" android:smoothScrollbar="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:numColumns="auto_fit" android:layout_below="@id/horizontalScrollView1" />
+<com.startapp.android.publish.banner.Banner
+        android:id="@+id/startAppBanner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+    </com.startapp.android.publish.banner.Banner>
+</RelativeLayout>
